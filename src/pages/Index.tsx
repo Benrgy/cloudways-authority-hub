@@ -6,6 +6,29 @@ import ComparisonTable from "@/components/ComparisonTable";
 import FAQAccordion from "@/components/FAQAccordion";
 import { Link } from "react-router-dom";
 
+const faqItems = [
+  {
+    question: "Is Cloudways worth it for small businesses?",
+    answer: "Yes. After 2 years on Cloudways, my site loads in 0.8 seconds, maintains 99.9% uptime, and costs $39/month — saving me $181/month compared to my previous managed host. For small businesses that need reliability without DevOps complexity, Cloudways offers the best value in the market.",
+  },
+  {
+    question: "How much does Cloudways cost per month?",
+    answer: "Cloudways pricing starts at $12/month for a 1GB DigitalOcean server. My setup runs at $39/month on a 2GB DigitalOcean server, which handles multiple WordPress sites with ease.",
+  },
+  {
+    question: "Does Cloudways include free SSL and CDN?",
+    answer: "Yes. Cloudways includes free Let's Encrypt SSL certificates, Cloudflare Enterprise CDN integration (on higher plans), automated backups, and a built-in caching stack.",
+  },
+  {
+    question: "What happens after the Cloudways 3-day free trial?",
+    answer: "After the 3-day free trial, you are charged for the server you selected. No credit card is required to start the trial. You can cancel before the trial ends with no charges.",
+  },
+  {
+    question: "Is Cloudways better than shared hosting?",
+    answer: "For growing websites, yes — significantly. My site's TTFB dropped from 1.4 seconds on shared hosting to 0.19 seconds on Cloudways, and my Google PageSpeed score jumped from 61 to 95+.",
+  },
+];
+
 const homepageJsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -35,29 +58,6 @@ const homepageJsonLd = {
     },
   ],
 };
-
-const faqItems = [
-  {
-    question: "Is Cloudways worth it for small businesses?",
-    answer: "Yes. After 2 years on Cloudways, my site loads in 0.8 seconds, maintains 99.9% uptime, and costs $39/month — saving me $181/month compared to my previous managed host. For small businesses that need reliability without DevOps complexity, Cloudways offers the best value in the market.",
-  },
-  {
-    question: "How much does Cloudways cost per month?",
-    answer: "Cloudways pricing starts at $12/month for a 1GB DigitalOcean server. My setup runs at $39/month on a 2GB DigitalOcean server, which handles multiple WordPress sites with ease.",
-  },
-  {
-    question: "Does Cloudways include free SSL and CDN?",
-    answer: "Yes. Cloudways includes free Let's Encrypt SSL certificates, Cloudflare Enterprise CDN integration (on higher plans), automated backups, and a built-in caching stack.",
-  },
-  {
-    question: "What happens after the Cloudways 3-day free trial?",
-    answer: "After the 3-day free trial, you are charged for the server you selected. No credit card is required to start the trial. You can cancel before the trial ends with no charges.",
-  },
-  {
-    question: "Is Cloudways better than shared hosting?",
-    answer: "For growing websites, yes — significantly. My site's TTFB dropped from 1.4 seconds on shared hosting to 0.19 seconds on Cloudways, and my Google PageSpeed score jumped from 61 to 95+.",
-  },
-];
 
 const comparisonRows = [
   { feature: "Price/month", cloudways: "From $12", competitor: "$30+", cloudwaysWins: true },
