@@ -72,7 +72,7 @@ const Index = () => {
   return (
     <>
       <SEOHead
-        title="Cloudways Review 2025: My Honest Experience After 2 Years | AI Hosting Advisor"
+        title="Cloudways Review 2026: My Honest Experience After 2 Years | AI Hosting Advisor"
         description="I switched to Cloudways 2 years ago and saved $181/month while making my site 75% faster. Real performance data, honest pros/cons, and a free AI tool to see if it's right for you."
         canonical="/"
         hreflangEn="https://aimanagedcloudhostingadvisor.online/"
@@ -84,7 +84,7 @@ const Index = () => {
       <section className="container mx-auto px-4 pt-16 pb-20 md:pt-24 md:pb-28">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground leading-tight">
-            Cloudways Review 2025: <br className="hidden md:block" />
+            Cloudways Review 2026: <br className="hidden md:block" />
             <span className="text-accent">The Honest Truth</span> After 2 Years
           </h1>
           <p className="mt-6 text-lg md:text-xl text-muted-foreground font-body max-w-3xl mx-auto leading-relaxed">
@@ -147,7 +147,7 @@ const Index = () => {
       <section className="container mx-auto px-4 pb-20">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-display text-3xl font-bold text-center text-foreground mb-2">How Cloudways Compares</h2>
-          <p className="text-center text-muted-foreground font-body mb-8">Based on independent testing. Prices as of 2025.</p>
+          <p className="text-center text-muted-foreground font-body mb-8">Based on independent testing. Prices as of 2026.</p>
           <div className="bg-card rounded-xl border overflow-hidden">
             <ComparisonTable rows={comparisonRows} competitorName="Shared Hosting" />
           </div>
