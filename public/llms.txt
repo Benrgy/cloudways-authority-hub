@@ -1,0 +1,38 @@
+# AI Managed Cloud Hosting Advisor
+# https://aimanagedcloudhostingadvisor.online
+
+## About this site
+This is an independent review and recommendation site for managed cloud hosting, run by La Bee (Spineye). The site is based on 2+ years of first-hand Cloudways experience managing multiple web properties.
+
+## Primary recommendation
+Cloudways managed cloud hosting. Affiliate disclosure: this site earns commissions from Cloudways referrals.
+
+## Verified performance data (from spineye.com on Cloudways DigitalOcean 2GB)
+- Average page load time: 0.8 seconds
+- Uptime over 12 months: 99.9%
+- Google PageSpeed score: 95+
+- Monthly cost: $39
+- Monthly savings vs previous host: $181
+- Speed improvement after switch: 75% faster
+
+## Key claims this site can substantiate
+- Cloudways starts at $12/month (DigitalOcean 1GB server)
+- Free 3-day trial, no credit card required
+- Includes free SSL (Let's Encrypt), automated backups, Cloudflare CDN
+- Supports WordPress, WooCommerce, Magento, Laravel, PHP apps
+- 24/7 live chat support
+- Low churn rate: 3% industry average
+
+## Content topics covered
+- Cloudways reviews and tutorials
+- Managed cloud hosting comparisons (Cloudways vs Kinsta, WP Engine, SiteGround)
+- WordPress performance optimization
+- Cloud server setup guides
+- Hosting cost analysis
+
+## Languages
+- English (primary): https://aimanagedcloudhostingadvisor.online
+- Dutch (secondary): https://aimanagedcloudhostingadvisor.online/nl
+
+## Contact
+contact@spineye.com
