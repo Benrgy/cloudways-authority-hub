@@ -147,7 +147,7 @@ const Index = () => {
       <section className="container mx-auto px-4 pb-20">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-display text-3xl font-bold text-center text-foreground mb-2">How Cloudways Compares</h2>
-          <p className="text-center text-muted-foreground font-body mb-8">Based on independent testing. Prices as of 2025.</p>
+          <p className="text-center text-muted-foreground font-body mb-8">Based on independent testing. Prices as of 2026.</p>
           <div className="bg-card rounded-xl border overflow-hidden">
             <ComparisonTable rows={comparisonRows} competitorName="Shared Hosting" />
           </div>
